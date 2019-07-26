@@ -86,8 +86,8 @@
       "total":27.70,
       "detail":[
         {
-          "id": 1,
-          "invoiceId": 1,
+          "id": 3,
+          "invoiceId": 2,
           "productCode":"CBLUSB-1",
           "description":"USB CABLE 3ft",
           "quantity": 10,
@@ -95,8 +95,8 @@
           "ammount": 7.50
         },
         {
-          "id": 2,
-          "invoiceId": 1,
+          "id": 4,
+          "invoiceId": 2,
           "productCode":"CBLHDMI-1",
           "description":"HDMI Cable 10ft",
           "quantity": 10,
