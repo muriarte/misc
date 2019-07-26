@@ -19,13 +19,13 @@
   "comments": [
     {
       "id": 1,
-      "userId": 2
+      "userId": 2,
       "body": "some comment",
       "postId": 1
     },
     {
       "id": 2,
-      "userId": 1
+      "userId": 1,
       "body": "another comment",
       "postId": 1
     }
@@ -104,6 +104,6 @@
           "ammount": 18.10
         }
       ]
-    },
+    }
   ]
 }
