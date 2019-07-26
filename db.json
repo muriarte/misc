@@ -1,0 +1,109 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "userId":1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "userId":1,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "userId":2,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "userId": 2
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1
+      "body": "another comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName":"Pedro Raul",
+      "lastName":"Perez Rojas",
+      "country": "Mexico"
+    },
+    {
+      "id": 2,
+      "firstName":"John",
+      "lastName":"Kennedy",
+      "country": "USA"
+    },
+    {
+      "id": 3,
+      "firstName":"Wilhelm",
+      "lastName":"Gertshum",
+      "country": "Germany"
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "customerName":"Pedro Raul",
+      "ammount": 15.70,
+      "tax": 1.20,
+      "total":16.90,
+      "detail":[
+        {
+          "id": 1,
+          "invoiceId": 1,
+          "productCode":"GLSTC-1",
+          "description":"Transparent glass brand crysa",
+          "quantity": 10,
+          "unitPrice": 0.45,
+          "ammount": 4.50
+        },
+        {
+          "id": 2,
+          "invoiceId": 1,
+          "productCode":"GLSTC-2",
+          "description":"Transparent glass brand crew",
+          "quantity": 10,
+          "unitPrice": 1.12,
+          "ammount": 11.20
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customerName":"Juan Alberto Ramirez",
+      "ammount": 25.60,
+      "tax": 2.10,
+      "total":27.70,
+      "detail":[
+        {
+          "id": 1,
+          "invoiceId": 1,
+          "productCode":"CBLUSB-1",
+          "description":"USB CABLE 3ft",
+          "quantity": 10,
+          "unitPrice": 0.75,
+          "ammount": 7.50
+        },
+        {
+          "id": 2,
+          "invoiceId": 1,
+          "productCode":"CBLHDMI-1",
+          "description":"HDMI Cable 10ft",
+          "quantity": 10,
+          "unitPrice": 1.81,
+          "ammount": 18.10
+        }
+      ]
+    },
+  ]
+}
